@@ -7,21 +7,38 @@
     <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
-    <header>AI poem generator</header>
-    <main>
-      <form action="">
-        <input type="text" placeholder="Enter the topic of the poem" />
-        <input type="submit" />
-      </form>
-    </main>
-    <footer>
-      This AI project was coded by
-      <a href="https://github.com/ndanuko" target="_blank">Stella Njeri</a> and
-      it is
-      <a href="https://github.com/ndanuko/poem-generator" target="_blank"
-        >open sourced on github</a
-      >
-    </footer>
+    <div class="container">
+      <header>
+        <h1>AI lyrics generator</h1>
+      </header>
+      <main>
+        <form action="">
+          <input
+            type="text"
+            placeholder="Enter the topic of the poem"
+            autofocus
+            required
+            class="prompt"
+          />
+          <input type="submit" class="button" />
+        </form>
+        <div class="lyrics">
+          <p>
+            I wanna get lost in you
+            <br />
+            wanna keep my eyes on you
+          </p>
+        </div>
+      </main>
+      <footer>
+        This AI project was coded by
+        <a href="https://github.com/ndanuko" target="_blank">Stella Njeri</a>
+        and it is
+        <a href="https://github.com/ndanuko/poem-generator" target="_blank"
+          >open sourced on github</a
+        >
+      </footer>
+    </div>
     <script src="src/script.js"></script>
   </body>
 </html>

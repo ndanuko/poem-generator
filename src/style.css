@@ -1,0 +1,57 @@
+body {
+  background-color: pink;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  font-weight: 800px;
+  font-size: 36px;
+  line-height: 1.5;
+}
+header {
+  margin-bottom: 30px;
+}
+form {
+  padding: 30px;
+  background-color: bisque;
+  border-radius: 10px;
+  display: flex;
+  margin-bottom: 30px;
+}
+.container {
+  margin: 120px auto;
+  max-width: 600px;
+}
+.prompt {
+  padding: 16px;
+  width: 80%;
+  border-radius: 50px;
+  line-height: 20px;
+  font-size: 18pxpx;
+  border: 1px solid hsl(300, 47%, 75%, 0.6%);
+}
+.button {
+  margin-left: 10px;
+  border-radius: 50px;
+  padding: 20px 20px;
+  border: none;
+  background-color: plum;
+  font-size: 15px;
+  width: 100px;
+  color: white;
+}
+.lyrics {
+  font-size: 18px;
+  padding: 20px;
+  line-height: 2;
+  border-left: 3px solid plum;
+  background-color: bisque;
+  border-radius: 10px;
+}
+footer {
+  text-align: center;
+  font-size: 13px;
+  margin-top: 30px;
+}
+a {
+  color: rgb(128, 46, 128);
+}
