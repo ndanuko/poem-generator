@@ -3,9 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>poem-generator</title>
+    <title>lyrics-generator</title>
     <link rel="stylesheet" href="src/style.css" />
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
   </head>
   <body>
     <div class="container">
@@ -13,16 +14,20 @@
         <h1>AI lyrics generator</h1>
       </header>
       <main>
-        <form action="" id="lyrics-generator-form">
-          <input
-            type="text"
-            placeholder="Enter the topic of the poem"
-            autofocus
-            required
-            class="prompt"
-          />
-          <input type="submit" class="button" />
-        </form>
+        <div class="form-container">
+          <form action="" id="lyrics-generator-form">
+            <input
+              type="text"
+              placeholder="Enter the topic of the poem"
+              autofocus
+              required
+              class="instructions"
+              id="user-instructions"
+            />
+            <input type="submit" class="button" />
+          </form>
+          <div class="hint">i.e: neyo, sza or usher</div>
+        </div>
         <div class="lyrics" id="lyrics"></div>
       </main>
       <footer>
@@ -31,7 +36,7 @@
         and it is
         <a href="https://github.com/ndanuko/poem-generator" target="_blank"
           >open sourced on github</a
-        >
+        >and hosted <a href="http://" target="_blank"> on vercel</a>
       </footer>
     </div>
     <script src="src/script.js"></script>
